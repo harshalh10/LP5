@@ -1,0 +1,3 @@
+nvcc -dc VectorAdd.cu
+nvcc VectorAdd.obj -o VectorAdd.exe && VectorAdd.exe
+del VectorAdd.obj
